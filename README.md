@@ -1,6 +1,10 @@
-1. Realizar la descarga
-2. Modificar el .env
-3. php artisan migrate:reset
+1. Realizar la clonación del repositorio con el comando git clone https://github.com/Domorenom28/trabajo_grado.git
+2. Estando dentro de la carpeta raíz del proyecto, se utiliza el comando composer install en la consola
+3. Se duplica el archivo .env.example para editarlo en el apartado DB_DATABASE = base_de_datos_aqui dandole el nombre de la base
+4. Se crea la API Key desde la consola con el comando php artisan key:generate
+5. Se realiza la migación con el comando php artisan migrate
+
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
